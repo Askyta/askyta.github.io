@@ -1,0 +1,460 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Traveline</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+</style>
+ 
+</head>
+<body style="background-color:#030814">
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.html" style="font-family:Playfair Display; color:#f2dadf">Traveline</a>
+    </div>
+    <ul class="nav navbar-nav navbar-center menu4">
+      <li><a href="home.html" style="color:#f2dadf">Home</a></li>
+      <li><a href="about.html" style="color:#f2dadf">About</a></li>
+      <li><a href="explore.html"style="color:#f2dadf">Explore</a></li>
+      <li><a href="contact.html"style="color:#f2dadf">Contact</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></a></li>
+      <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+</svg></a></li>
+      <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg></a></li>
+       <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg></a></li>
+    </ul>
+	
+	
+  </div>
+</nav>
+
+
+<div class="item active ">
+
+      <img src="1.jpg" alt="Image" style="opacity:0.4;object-fit:cover;width: 100%" height="700px">
+
+      
+          <div class="carousel-caption featcenterraboutcoverexplore containerabout border">    
+<h2 class="featurette-heading border" align="right"style="text-shadow: none;font-size:60px;font-family:'Boston SemiBold'; color:#BF5A6C">Your Journey,
+<br>
+<span style="text-shadow: none;font-size:60px;font-family:'Boston Light'; color:#f2dadf">Our Odyssey</span>
+
+<br>
+		  <span style="text-shadow: none;font-size:35px;font-family:'Boston Light'; color:#BF5A6C">pick your next adventure</span></h2>
+       
+      
+  </div>
+       </div> 
+
+
+<br><br>
+
+
+  
+<div class="container text-center border">    
+	 
+	  <h2 style="font-size:55px;font-family:Playfair Display;color:#BF5A6C">Explore Top Destinations</h2>
+	 <p style="font-size:25px; font-family:Boston Regular;color:#f2dadf">Planning your dream vacation? Searching for the perfect city-break?
+	 Get inspired by our top destinations.</p>
+  
+	 
+	   <div class="container-card card border  topalign">
+	   <div class="col-md-5 border">
+	  <div class="imgcartela">
+      
+	  <img src="s.jpg" alt="Image" style="border-radius:15px;backdrop-filter: blur(10px);object-fit:cover;width: 100%" height="100%">
+	  
+      </div>
+	 </div>
+	 <br>
+	 
+	 <div class="col-md-7 border">
+	 <div class="detcartela border">
+     <h2 style="font-size:24px;font-family:Playfair Display; color:#F25C5C">Zürich & Berna, Switzerland</h2>
+	 <p style="font-size:16px; font-family:Boston Regular;color:#f2dadf">Explore the magnificent Switzerland’s Alpines mountains, visit its lovely villages and cities</p>
+   
+   
+   <div class="col-sm-2 border iconspace"></div>
+   <div class="col-sm-2 border iconspace"></div>
+
+   <div class="col-sm-2 border icon">
+   <a align="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" style="fill: rgb(242, 218, 223);"></path></svg>
+</a>
+</div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Flight</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 0 1-16-16V128a16 16 0 0 1 32 0v128h80a16 16 0 0 1 0 32z" style="fill: rgb(242, 218, 223);"></path></svg></div>	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">7 days</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-opacity=".01" d="M0 0h48v48H0z"></path><path xmlns="http://www.w3.org/2000/svg" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24m6-32c0 4.418-2.686 8-6 8s-6-3.582-6-8 2.686-8 6-8 6 3.582 6 8z" style="stroke: rgb(242, 218, 223);"></path></svg> 
+   </div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Meal</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace">
+	</div>
+
+	
+	<div class="col-md-12 border">
+    <p class="price" style="font-size:28px; font-family:Boston Bold;color:#f2dadf" align="center">$599</p>
+    <s style="font-size:16px; font-family:Boston Light;color:#f2dadf" align="center">$799</s>
+    </div>
+
+	 <button align="center" type="button" class="btn btn-default btn-cartela" style="font-size:15px; font-family:Boston Regular">MORE</button>
+
+</div>
+
+</div></div>
+
+
+   
+   
+    <div class="container border  topalign">
+	   <div class="col-md-5 border">
+	  <div class="imgcartela">
+      
+	  <img src="nn.jpg" alt="Image" style="border-radius:15px;object-fit:cover;width: 100%" height="100%">
+	  
+      </div>
+	 </div>
+	 <br>
+	 
+	 <div class="col-md-7 border">
+	 <div class="detcartela border">
+     <h2 style="font-size:24px;font-family:Playfair Display;color:#F25C5C">Geirangerfjord & Oslo, Norway</h2>
+	 <p style="font-size:16px; font-family:Boston Regular;color:#f2dadf">
+	 We truly believe there's no place like Norway - discover the well-known fjords and live the ultimate experience
+	 </p>
+   
+   
+   <div class="col-sm-2 border iconspace"></div>
+   <div class="col-sm-2 border iconspace"></div>
+   
+   <div class="col-sm-2 border icon">
+   <a align="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" style="fill: rgb(242, 218, 223);"></path></svg>
+   </a></div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Flight</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 0 1-16-16V128a16 16 0 0 1 32 0v128h80a16 16 0 0 1 0 32z" style="fill: rgb(242, 218, 223);"></path></svg>
+</div>	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">7 days</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-opacity=".01" d="M0 0h48v48H0z"></path><path xmlns="http://www.w3.org/2000/svg" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24m6-32c0 4.418-2.686 8-6 8s-6-3.582-6-8 2.686-8 6-8 6 3.582 6 8z" style="stroke: rgb(242, 218, 223);"></path></svg>  </div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Meal</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace">
+	</div>
+
+
+	<div class="col-md-12 border">
+    <p class="price" style="font-size:26px; font-family:Boston Bold;color:#f2dadf" align="center">$799</p>
+    <s style="font-size:16px; font-family:Boston Light;color:#f2dadf" align="center">$899</s>
+    </div>
+	
+	 <button align="center" type="button" class="btn btn-default btn-cartela" style="font-size:15px; font-family:Boston Regular">MORE</button>
+
+</div>
+
+</div></div>
+<br><br><br>
+   
+   
+    <div class="container border  topalign">
+	   <div class="col-md-5 border">
+	  <div class="imgcartela">
+      
+	  <img src="ii.jpg" alt="Image" style="border-radius:15px;object-fit:cover;width: 100%" height="100%">
+	  
+      </div>
+	 </div>
+	 <br>
+	 
+	 <div class="col-md-7 border">
+	 <div class="detcartela border">
+     <h2 style="font-size:24px;font-family:Playfair Display;color:#F25C5C">Belfast & Waterford, Ireland</h2>
+	 <p style="font-size:16px; font-family:Boston Regular;color:#f2dadf">
+	 Feel the spirit of old Ireland, hike its cliffs and enjoy your irish journey
+	 </p>
+   
+   <div class="col-sm-2 border iconspace"></div>
+   <div class="col-sm-2 border iconspace"></div>
+   
+   <div class="col-sm-2 border icon">
+   <a align="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" style="fill: rgb(242, 218, 223);"></path></svg>
+	
+	</a></div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Flight</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 0 1-16-16V128a16 16 0 0 1 32 0v128h80a16 16 0 0 1 0 32z" style="fill: rgb(242, 218, 223);"></path></svg></div>	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">10 days</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-opacity=".01" d="M0 0h48v48H0z"></path><path xmlns="http://www.w3.org/2000/svg" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24m6-32c0 4.418-2.686 8-6 8s-6-3.582-6-8 2.686-8 6-8 6 3.582 6 8z" style="stroke: rgb(242, 218, 223);"></path></svg>  </div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Meal</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace">
+	</div>
+
+
+	<div class="col-md-12 border">
+    <p class="price" style="font-size:26px; font-family:Boston Bold;color:#f2dadf" align="center">$899</p>
+    <s style="font-size:16px; font-family:Boston Light;color:#f2dadf" align="center">$999</s>
+    </div>
+	
+	 <button align="center" type="button" class="btn btn-default btn-cartela" style="font-size:15px; font-family:Boston Regular">MORE</button>
+
+</div>
+
+</div></div>
+<br><br><br>
+
+
+ <div class="container border  topalign">
+	   <div class="col-md-5 border">
+	  <div class="imgcartela">
+      
+	  <img src="aa.jpg" alt="Image" style="border-radius:15px;object-fit:cover;width: 100%" height="100%">
+	  
+      </div>
+	 </div>
+	 <br>
+	 
+	 <div class="col-md-7 border">
+	 <div class="detcartela border">
+     <h2 style="font-size:24px;font-family:Playfair Display;color:#F25C5C">Vienna & Grossglockner, Austria</h2>
+	 <p style="font-size:16px; font-family:Boston Regular;color:#f2dadf">Feeling inspired or in need for a citybreak? Look no more -
+	 Austria is the perfect place for you
+	 </p>
+   
+   <div class="col-sm-2 border iconspace"></div>
+   <div class="col-sm-2 border iconspace"></div>
+   
+   <div class="col-sm-2 border icon">
+   <a align="left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" style="fill: rgb(242, 218, 223);"></path></svg>
+</a>	</div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Flight</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 0 1-16-16V128a16 16 0 0 1 32 0v128h80a16 16 0 0 1 0 32z" style="fill: rgb(242, 218, 223);"></path></svg>
+	</div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">5 days</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-opacity=".01" d="M0 0h48v48H0z"></path><path xmlns="http://www.w3.org/2000/svg" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24m6-32c0 4.418-2.686 8-6 8s-6-3.582-6-8 2.686-8 6-8 6 3.582 6 8z" style="stroke: rgb(242, 218, 223);"></path></svg>  </div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Meal</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace">
+	</div>
+
+
+	<div class="col-md-12 border">
+    <p class="price" style="font-size:26px; font-family:Boston Bold;color:#f2dadf" align="center">$499</p>
+    <s style="font-size:20px; font-family:Boston Light;color:#f2dadf" align="center">$599</s>
+    </div>
+	
+	 <button align="center" type="button" class="btn btn-default btn-cartela" style="font-size:15px; font-family:Boston Regular">MORE</button>
+
+</div>
+
+</div></div>
+<br><br><br>
+
+
+ <div class="container border  topalign">
+	   <div class="col-md-5 border">
+	  <div class="imgcartela">
+      
+	  <img src="g.jpg" alt="Image" style="border-radius:15px;object-fit:cover;width: 100%" height="100%">
+	  
+      </div>
+	 </div>
+	 <br>
+	 
+	 <div class="col-md-7 border">
+	 <div class="detcartela border">
+     <h2 style="font-size:24px;font-family:Playfair Display;color:#F25C5C">Sydney & Great Barrier Reef, Australia</h2>
+	 <p style="font-size:16px; font-family:Boston Regular;color:#f2dadf">Vacation emergency only -
+	 GBR is THE experience
+	 </p>
+	 
+   
+   <div class="col-sm-2 border iconspace"></div>
+   <div class="col-sm-2 border iconspace"></div>
+   
+   <div class="col-sm-2 border icon">
+   <a align="left">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" style="fill: rgb(242, 218, 223);"></path></svg>
+   </a></div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Flight</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48zm96 240h-96a16 16 0 0 1-16-16V128a16 16 0 0 1 32 0v128h80a16 16 0 0 1 0 32z" style="fill: rgb(242, 218, 223);"></path></svg>	
+	</div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">10 days</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace"></div>
+	<div class="col-sm-2 border iconspace"></div>
+	
+	<div class="col-sm-2 border icon">
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><path xmlns="http://www.w3.org/2000/svg" fill="#fff" fill-opacity=".01" d="M0 0h48v48H0z"></path><path xmlns="http://www.w3.org/2000/svg" stroke="#333" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24m6-32c0 4.418-2.686 8-6 8s-6-3.582-6-8 2.686-8 6-8 6 3.582 6 8z" style="stroke: rgb(242, 218, 223);"></path></svg>  </div>
+	<div class="col-sm-2 border icon-capture">
+	<h4 style="font-size:18px; font-family:Boston Light;color:#f2dadf" align="center">Meal</h4>
+	</div>
+	
+	<div class="col-sm-2 border iconspace">
+	</div>
+
+
+	<div class="col-md-12 border">
+    <p class="price" style="font-size:26px; font-family:Boston Bold;color:#f2dadf" align="center">$999</p>
+    <s style="font-size:16px; font-family:Boston Light;color:#f2dadf" align="center">$1299</s>
+    </div>
+	
+	 <button align="center" type="button" class="btn btn-default btn-cartela" style="font-size:15px; font-family:Boston Regular">MORE</button>
+
+</div>
+
+</div></div>
+<br><br><br>
+
+
+</div>
+<br><br><br><br><br>
+<hr style="border-color:#132240">
+  <footer style="background-color:#030814">
+    <section class="">
+      <form action="">
+
+  <div class="container border"style="font-size:15px">
+	
+               <div class="col-md-4 border">
+             <br>
+			   <label for="email" style="font-size:16px;font-family:'Boston Light';color:#f2dadf">Sign up to hear from us</label>
+    <input style="font-size:14px;font-family:'Boston Light';color:#BF5A6C" type="text" id="fname" name="firstname" placeholder="Your Email">
+
+ </div>
+   
+	<div class="col-md-8 border" align="left"><br></div>
+    
+		<div class="col-md-8 border" align="left"></div>
+	<div class="col-md-8 border">
+	
+	 <div class="col-sm-2 border" align="left"><br>
+      <button type="button" class="btn btn-default">Subscribe</button>
+    </div><br>
+		<ul class="nav navbar-nav border navbar-right">
+     <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+</svg></a></li>
+      <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+</svg></a></li>
+      <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg></a></li>
+       <li><a href="#"style="color:#f2dadf"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+</svg></a></li>
+    </ul>
+	</div>
+		<div class="col-md-8 border" align="left"><br></div>
+	</div>
+	
+	
+
+      </form>
+    </section>
+   <br><br> 
+
+ <div class="text-center p-3" >
+    <div class="container">
+  <ul class=" navbar-nav footerbar-center menu4">
+      <li><a href="home.html"style="color:#f2dadf">Home</a></li>
+      <li><a href="about.html"style="color:#f2dadf">About</a></li>
+      <li><a href="explore.html"style="color:#f2dadf">Explore</a></li>
+      <li><a href="contact.html"style="color:#f2dadf">Contact</a></li>
+    </ul>
+	</div>
+  </div>
+	
+</footer>
+
+</body>
+</html>

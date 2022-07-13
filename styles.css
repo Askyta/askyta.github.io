@@ -1,0 +1,645 @@
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  border-color: none;
+
+    }
+	
+	.navbar-nav > li{
+  padding-left:5px;
+  padding-right:5px;
+
+}
+
+  .navbar-brand {
+	margin-left:50px;
+	}
+	
+	.navbar-header{
+    width:100px;
+    margin-left:8.3333% !important;
+}
+   .navbar-right {
+      width:200px;
+    margin-right:8.3333% !important;
+   }
+   
+   .navbar-right >li{
+    padding-left:1px;
+    padding-right:1px;
+	text-decoration: none;
+        background-color: transparent !important;
+   }
+   
+   .navbar-center {
+	   width:600px;
+    margin-left:13.3333% !important;
+	padding-left:10px;
+  padding-right:10px;
+
+   }
+	
+    .navbar-default {
+	background: none;
+	border-color: none;
+
+	}
+	
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	
+	.footerbar-center {
+		 width:700px;
+    margin-left:25.3333% !important;
+	padding-left:10px;
+  padding-right:10px;
+ 
+  text-decoration: none;
+        background-color: transparent !important;
+	}
+    
+	.container {
+		border-radius: 0;
+		border-color: none;
+	}
+
+	.containerabout {
+		width:950px;
+		height: auto;
+		border-radius: 0;
+		border-color: none;
+         position: absolute;
+        left:30%
+        transform: translate(-20%, -50%);
+	}
+
+
+/* Boostrap Buttons Styling */
+
+.btn-default {
+    
+    font-style: normal;
+    font-weight: normal;
+  font-size: 15px;
+  color: #F25C5C;
+  letter-spacing: auto;
+  line-height: 25px;
+  border: 2px solid #F25C5C;
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+   padding: 6px 30px 6px 30px;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: #F25C5C;
+  border: 2px solid #F25C5C;
+   padding: 6px 30px 6px 30px;
+}
+	.navbar.navbar-default {
+    background-image: linear-gradient(#0A1326, transparent);
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	text-decoration: none;
+        background-color: transparent !important;
+}
+
+.navbar.navbar-default .navbar-collapse {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	text-decoration: none;
+        background-color: transparent !important;
+}
+html{
+    scroll-behaviour : smooth;
+} 
+	
+	.menu4 li {
+  padding: 1px 30px;
+  border-radius: 0px;
+  color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu4 li span {
+  z-index: 100;
+  color: transparent;
+  transition: all 500ms cubic-bezier(0.075, 0.81, 0.165, 1);
+}
+
+.menu4 li::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: calc(100% - 4px);
+  height: 0;
+  right: 0;
+  bottom: 0;
+  border-left: 2px solid #F25C5C;
+  border-right: 2px solid #F25C5C;
+  transition: all 500ms cubic-bezier(0.075, 0.81, 0.165, 1);
+}
+
+/* On hover the 'before' elements height get increased from 0 to 100% ans the span element's letter spacting increase from 1 to 4px */
+.menu4 li:hover:before {
+  background-color: transparent;
+  height: 100%;
+  transition: all 1s cubic-bezier(0.075, 0.81, 0.165, 1);
+}
+
+.menu4 li:hover span {
+  letter-spacing: 3px;
+  color: #F25C5C;
+}
+	
+  .carousel-inner img {
+      width: 100%; 
+      margin: auto;
+	  border-color: none;
+      min-height: 650px !important;
+	  display: inline-block;
+  }
+	#myCarousel1 {
+		width: 77%;
+        height: 300px;
+	}
+    .imgclass {
+		height: 715px !important;
+		width: auto;
+		margin: auto;
+		object-fit: cover;
+	  border-color: none;
+	  box-shadow: inset 0 0 500px black;
+	}
+	
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  min-height: 500px;    /* Set slide height here */
+
+} 
+   .carousel {
+	   height: 715px;
+   }
+  
+  .featcenter {
+  margin: 0;
+  left: 50%;
+  top: 15%;
+  transform: translate(-90%, -180%);
+
+  }
+  a {
+	  transition: 4s;
+  }
+  
+  .featcenterr {
+margin: 0;
+  top: 50%;
+  transform: translate(-30%, -170%);
+  float: right;
+  width: 800px;
+
+  }
+  
+    .featcenterrabout {
+margin: 0;
+  top: 120%;
+  transform: translate(-5%, -40%);
+  float: right;
+  width: 800px;
+
+  }
+      .featcenterraboutcover {
+margin: 0;
+  top: 50%;
+  transform: translate(15%, -40%);
+  float: right;
+  width: 800px;
+
+  }
+        .featcenterraboutcoverexplore {
+margin: 0;
+  top: 50%;
+  transform: translate(10%, -40%);
+  float: right;
+  width: 800px;
+
+  }
+        .featcenterraboutcovercontact {
+margin: 0;
+  top: 50%;
+  transform: translate(5%, -40%);
+  float: right;
+  width: 800px;
+
+  }
+  
+     .featcenterrabout1 {
+margin: 0;
+  top:220%;
+  transform: translate(-5%, -40%);
+  float: right;
+  width: 800px;
+
+  }
+  
+      .featcenterrabout2 {
+margin: 0;
+  top:320%;
+  transform: translate(-5%, -40%);
+  float: right;
+  width: 800px;
+
+  }
+ 
+  .featcenterss {
+  margin: 0;
+  top: 50%;
+  transform: translate(-25%, -20%);
+  float: right;
+  width: 900px;
+
+
+  }
+  
+  .center {
+   margin: 0 auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.featright {
+  float: right;
+  width: 600px;
+
+  padding: 10px;
+  height:auto:
+}
+
+.border {
+  border: transparent;
+  padding: 1px;
+}
+.topalign {
+
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+.price {
+	
+margin: 0;
+padding: 0;
+
+
+}
+   .imgcartela {
+	   background-color: rgb(137,76,0);
+	   height: 275px;
+	   width: auto;
+	   border-radius:15px;
+	   display: inline-block;
+   }
+    
+	.detcartela {
+		height: 250px;
+		width: auto;
+	}
+   
+   .btn-cartela {
+margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   }
+   
+   
+   .icon {
+	   height: 40px;
+	   width: 45px;
+	     text-align: center;
+   }
+    .iconspace {
+	   height: 40px;
+	   width: 40px;
+	     text-align: center;
+   }
+   .icon-capture {
+	   height: 45px;
+	   width: 75px;
+   }
+   
+  .well {
+	  background-color: rgb(137,76,39);
+	  
+  }
+  .cartela {
+	  height: 330px;
+  }
+  
+  .imgcartelahome {
+	   background-color: rgb(137,76,0);
+	   height: 275px;
+   }
+  
+
+
+
+  /* Playfair Display & Boston FONTS */
+  
+@font-face {
+    font-family: 'Playfair Display', serif;
+
+}
+  
+   @font-face {
+    font-family: 'Boston Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Regular'), url('BostonRegular.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Regular It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Regular It'), url('BostonRegularIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Thin'), url('BostonThin.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Thin It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Thin It'), url('BostonThinIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston ExtraLight';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston ExtraLight'), url('BostonExtraLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston ExtraLight It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston ExtraLight It'), url('BostonExtraLightIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Light'), url('BostonLight.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Light It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Light It'), url('BostonLightIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston SemiBold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston SemiBold'), url('BostonSemiBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston SemiBold It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston SemiBold It'), url('BostonSemiBoldIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Bold'), url('BostonBold.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Bold It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Bold It'), url('BostonBoldIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Black'), url('BostonBlack.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Black It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Black It'), url('BostonBlackIt.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Heavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Heavy'), url('BostonHeavy.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Boston Heavy It';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Boston Heavy It'), url('BostonHeavyIt.woff') format('woff');
+    }
+  
+  
+  .bodycard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #fff;
+	min-height: 100vh;
+}
+
+
+
+.container-card {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 90px 0;
+}
+
+.container-card .card {
+	position: relative;
+	width: 350px;
+	height: 450px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.container-card .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container-card .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container-card .card .content .imgBx {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+.container-card .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container-card .card .content .contentBx h3 {
+	color: #00000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container-card .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container-card .card .sci {
+	position: absolute;
+	bottom: 20px;
+	display: flex;
+}
+
+.container-card .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container-card .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container-card .card .sci li a {
+	color: rgba(255, 255, 255, 0.05);
+	font-size: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-family:Boston Light; font-size:15px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+	
+  font-family: 'Boston Regular';
+  font-size: 15px;
+  color: #F25C5C;
+  letter-spacing: auto;
+  line-height: 25px;
+  border: 2px solid #F25C5C;
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+   padding: 6px 30px 6px 30px;
+}
+
+input[type=submit]:hover {
+  color: #FFF;
+  background: #F25C5C;
+  border: 2px solid #F25C5C;
+   padding: 6px 30px 6px 30px;
+}
+
+.containerform {
+  border-radius: 2px;
+  background-color: transparent;
+  padding: 170px;
+}
+
+
+  }
+
+
+  
+  }
